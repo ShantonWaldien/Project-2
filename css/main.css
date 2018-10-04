@@ -1,0 +1,40 @@
+/* Body Styling Starts Here */
+body {
+    background-color: #0a0a0a;
+    border-top: 13px solid #3a3a3a;
+    color: #ccc;
+    font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 56px;
+}
+/* Body styling ends here */
+
+/* Intro Styling starts here */
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.banner {
+    border-bottom: 3px double #666;
+    text-align: center;
+    margin-bottom: 56px;
+    padding-bottom: 72px;
+}
+
+.baby {
+    border-radius: 50%;
+    height: 120px;
+    margin: 0 auto 8px;
+    width: 120px;
+}
+
+.greeting {
+    color: #fff;
+    display: inline-block;
+    font-size: 47px;
+    font-weight: 700;
+    /* margin-bottom: -4px; */
+}
