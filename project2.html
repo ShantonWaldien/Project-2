@@ -10,7 +10,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <main class="container">
+    <div class="container">
         <!-- Header Starts here -->
         <header class="banner">
             <div class="avatar">
@@ -22,22 +22,25 @@
             <h1 class="intro">
                 My name is Jon Chretien. I’m a <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank" rel="noopener noreferrer">NYC</a> based front end engineer currently working on web apps for artists at <a href="https://www.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>. I previously built editorial &amp; marketing projects at <a href="https://www.nytimes.com/" target="_blank" rel="noopener noreferrer">The New York Times</a>.
             </h1> 
-
-
         </header>
+    </div>
         <!-- Header ends here -->
 
-        <!-- Content starts here -->
 
+        <!-- Content starts here -->
+    <div class="container">
         <section>
             <h2 class="title">Selected Works</h2>
 
             <div class="grid-container">
-                <div class="item1">
+                <div class="item">
                     <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank" rel="noopener noreferrer">
                     <img src="img/work_s4a.jpg" alt="Screenshot of selected work.">
                     </a>
-                    <div class="item-content"></div>
+                    <div class="project-content">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank" rel="noopener noreferrer"><h3 class="content-header">Spotify for Artists</h3></a>
+                    </div>
+                    <p class="content-description">Fan insights for artists & managers to discover more about their audience.</p>
                 </div>
 
                 <div class="item2">
@@ -45,7 +48,11 @@
                     <img src="img/work_midterms.jpg" alt="Screenshot of selected work.">
                     </a>
                 </div>
-                <div class="item3"></div>
+                
+
+                <div class="item3">
+                    <img src="img/work_opinionator.gif" alt="Screenshot of selected work.">
+                </div>
                 <div class="item4"></div>
                 <div class="item5"></div>
                 <div class="item6"></div>
@@ -54,9 +61,6 @@
                 <div class="item9"></div>
             </div>
         </section>
-
-       
-         
-    </main>
+    </div>
 </body>
 </html>

@@ -8,7 +8,8 @@ body {
     line-height: 1.5;
     text-align: center;
     padding: 56px;
-    margin-top: 0;
+    margin: 0;
+
 }
 /* Body styling ends here */
 
@@ -20,8 +21,10 @@ body {
 
 .banner {
     margin-bottom: 56px;
-    padding-bottom: 48px;
+    padding-bottom: 55px;
     border-bottom: 3px double #666;
+    display: block;
+    margin: 0;
 }
 
 .baby {
@@ -29,8 +32,9 @@ body {
     margin: 0 auto 8px;
     width: 120px;
     display: block;
-    height: auto;
+    height: 120px;
     max-width: 100%;
+    
 }
 
 .greeting {
@@ -72,12 +76,16 @@ a:hover {
 section {
     margin-bottom: 56px;
     padding-bottom: 72px;
+    border-bottom: 1px solid #666;
+    margin: 0;
 }
 
-h2 {
+.title {
     color: #fff;
     font-size: 47px;
     font-weight: 700;
+    line-height: inherit;
+    margin-bottom: 16px;
 }
     /* Grid starts */
 
@@ -85,6 +93,32 @@ h2 {
     grid-template-columns: repeat(3,1fr) ;
     margin: 0;
     display: grid;
+    grid-gap: 24px;
 }
 
+.item{
+    font-size: 24px;
+    line-height: 1.3em;
+}
+.content-header {
+    margin-bottom: -35px;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+}
 
+.content-description {
+    font-size: 16px;
+    line-height: 1.35em;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+img {
+    display: block;
+}
+
+h3{
+    position: relative;
+    bottom: 20px;
+}
