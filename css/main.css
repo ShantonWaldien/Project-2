@@ -37,6 +37,10 @@ body {
     
 }
 
+.baby:hover {
+    opacity: 2;
+}
+
 .greeting {
     color: #fff;
     display: inline-block;
@@ -116,6 +120,11 @@ section {
 
 img {
     display: block;
+}
+
+img:hover {
+    opacity: .65;
+    transition: opacity .3s linear
 }
 
 h3{
