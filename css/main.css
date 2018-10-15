@@ -142,3 +142,27 @@ h3{
     text-align: left;
     line-height: 20px;
 }
+
+/* Content ends here */
+
+/* Photography Section starts here */
+
+figure {
+    display: block;
+}
+
+.grid-photo {
+    grid-template-columns: repeat(3,1fr) ;
+    margin: 0;
+    display: grid;
+    grid-gap: 24px;
+}
+
+.grid_item {
+    float: none;
+    width: auto;
+}
+
+.grid-photo > img {
+    margin: 0 auto;
+}
