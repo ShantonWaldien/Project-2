@@ -1,5 +1,28 @@
-# Project-2
-Project 2- Rebuilding Jon Chretien website
+# Project 2
+Rebuilding Jon Chretien website
 
 ## Live Link
-https://shantonwaldien.github.io/Project-2/
+- 
+
+### Technologies Used
+
+Technologies and Tools Used:
+
+```
+Languages:
+
+- CSS
+- HTML
+
+```
+```
+Tools:
+
+- VS Code
+- GitBash
+
+```
+
+## Contributors
+
+Shanton Waldien - 2018
