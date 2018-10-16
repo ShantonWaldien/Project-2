@@ -91,6 +91,14 @@ section {
     line-height: inherit;
     margin-bottom: 16px;
 }
+
+.title1 {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: inherit;
+    margin-bottom: 16px;
+}
     /* Grid starts */
 
 .grid-container {
@@ -186,12 +194,43 @@ h3{
     margin-top: 10px;
 }
 
+/* Footer starts here */
+
+footer {
+    display: flex;
+    padding-top: 10px;
+}
+
+.nav-footer {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.foot-item {
+    margin-left: 24px;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+}
+
+
+
 /* Media queries begin here */
 
 @media (max-width: 990px) {
  body {
     padding:56px;
-    font-size: 14px;
+    /* font-size: 14px; */
  }
 
  .grid-container {
@@ -208,45 +247,72 @@ h3{
  .grid-photo img {
     width: 100%;
  }
+
+ h1,h2 {
+    color:#fff;
+    font-size:47px;
+    font-weight:700
+ }
 }
 
 @media (max-width: 480px) {
-    body {
-        padding:56px;
-        font-size: 14px;
-     }
+ body {
+    padding:56px;
+    font-size: 20px;
+ }
 
-     .intro {
-         font-size: 0.8em;
-     }
+ .intro {
+    font-size: 1.8em;
+ }
     
-     .grid-container {
-        grid-template-columns: repeat(1,1fr) ;
-        margin: 0;
-        display: grid;
-        grid-gap: 24px;
-     }
+ .grid-container {
+    grid-template-columns: repeat(1,1fr) ;
+    margin: 0;
+    display: grid;
+    grid-gap: 24px;
+ }
 
-     .music-grid {
-        grid-template-columns: repeat(1, 1fr);
-        display: grid;
-        grid-gap: 24px;
-    }
+ .music-grid {
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-gap: 24px;
+ }
 
-    .grid-photo {
-        grid-template-columns: repeat(1,1fr) ;
-        margin: 0;
-        display: grid;
-        grid-gap: 24px;
-     }
+ .grid-photo {
+    grid-template-columns: repeat(1,1fr) ;
+    margin: 0;
+    display: grid;
+    grid-gap: 24px;
+ }
 
 
-    .grid-photo .grid__item:nth-child(3) {
-         grid-column: span 1;
-     }
+ .grid-photo .grid__item:nth-child(3) {
+    grid-column: span 1;
+ }
 
-     .title {
-         font-size: 25px;
-     }
+ .title {
+    font-size: 2em;
+ }
 
+ .banner {
+    padding-bottom: 10px;
+ }
+
+ nav {
+     width: 100%;
+ }
+
+ .copyright {
+     width: 100%;
+ }
+ 
+ footer {
+     display: inline;
+ }
+
+ .copyright {
+    
+    align-items: center;
+    justify-content: center;
+}
 }
