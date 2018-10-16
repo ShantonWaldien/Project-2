@@ -34,6 +34,7 @@ body {
     display: block;
     height: 120px;
     max-width: 100%;
+    margin-top: 60px;
     
 }
 
@@ -166,3 +167,18 @@ h3{
     width: 100%;
 }
 
+/* Photography section ends here */
+
+/* Currently listening section starst here */
+
+.music-grid {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-gap: 24px;
+}
+
+.music-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
