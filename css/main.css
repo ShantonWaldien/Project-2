@@ -21,8 +21,8 @@ body {
 
 .banner {
     margin-bottom: 56px;
-    padding-bottom: 55px;
-    border-bottom: 3px double #666;
+    padding-bottom: 56px;
+    border-bottom: 1px double #666;
     display: block;
     margin: 0;
 }
@@ -71,7 +71,10 @@ a {
 
 a:hover {
     color: #666;
-    
+}
+
+a:active,a:focus {
+    color:rgba(255,255,51,.19999999999999996) 
 }
 
 /* Header styling ends here */
@@ -90,6 +93,7 @@ section {
     font-weight: 700;
     line-height: inherit;
     margin-bottom: 16px;
+    padding-top: 25px;
 }
 
 .title1 {
@@ -176,7 +180,7 @@ h3{
 
 /* Photography section ends here */
 
-/* Currently listening section starst here */
+/* Currently listening section starts here */
 
 .music-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -193,6 +197,8 @@ h3{
 .track-name {
     margin-top: 10px;
 }
+
+/* Currently listening section starts here */
 
 /* Footer starts here */
 
@@ -222,6 +228,16 @@ li {
     flex: 1 1 0%;
     justify-content: flex-end;
 }
+
+.ghub {
+    margin-left: 24px;
+}
+
+.insta {
+    margin-left: 24px;
+}
+
+/* Footer ends here */
 
 
 
@@ -253,6 +269,24 @@ li {
     font-size:47px;
     font-weight:700
  }
+ .copyright {
+    width: 100%;
+}
+
+footer {
+    display: inline;
+}
+
+li > a {
+    padding-left: 8px;
+}
+
+
+.copyright {
+   
+   align-items: center;
+   justify-content: center;
+}
 }
 
 @media (max-width: 480px) {
