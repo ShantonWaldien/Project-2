@@ -7,7 +7,7 @@ body {
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    /* padding: 56px; */
+    padding: 56px;
     margin: 0;
 
 }
@@ -34,7 +34,6 @@ body {
     display: block;
     height: 120px;
     max-width: 100%;
-    margin-top: 60px;
     
 }
 
@@ -185,4 +184,59 @@ h3{
 
 .track-name {
     margin-top: 10px;
+}
+
+/* Media queries begin here */
+
+@media (max-width: 990px) {
+ body {
+    padding:56px
+ }
+
+ .grid-container {
+    grid-template-columns: repeat(2,1fr) ;
+    margin: 0;
+    display: grid;
+    grid-gap: 24px;
+ }
+ .grid-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+ }
+ .grid-photo img {
+    width: 100%;
+ }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding:56px
+     }
+    
+     .grid-container {
+        grid-template-columns: repeat(1,1fr) ;
+        margin: 0;
+        display: grid;
+        grid-gap: 24px;
+     }
+
+     .music-grid {
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        grid-gap: 24px;
+    }
+
+    .grid-photo {
+        grid-template-columns: repeat(1,1fr) ;
+        margin: 0;
+        display: grid;
+        grid-gap: 24px;
+     }
+
+
+    .grid-photo .grid__item:nth-child(3) {
+         grid-column: span 1;
+     }
+
 }
