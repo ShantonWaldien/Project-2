@@ -311,9 +311,14 @@ li {
      display: inline;
  }
 
+ li > a {
+     padding-left: 8px;
+ }
+ 
+
  .copyright {
     
     align-items: center;
     justify-content: center;
-}
+ }
 }
