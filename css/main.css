@@ -215,6 +215,10 @@ h3{
         padding:56px;
         font-size: 14px;
      }
+
+     .intro {
+         font-size: 0.8em;
+     }
     
      .grid-container {
         grid-template-columns: repeat(1,1fr) ;
@@ -239,6 +243,10 @@ h3{
 
     .grid-photo .grid__item:nth-child(3) {
          grid-column: span 1;
+     }
+
+     .title {
+         font-size: 25px;
      }
 
 }
