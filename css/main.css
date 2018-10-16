@@ -211,7 +211,8 @@ h3{
 
 @media (max-width: 480px) {
     body {
-        padding:56px
+        padding:56px;
+        font-size: 14px;
      }
     
      .grid-container {
