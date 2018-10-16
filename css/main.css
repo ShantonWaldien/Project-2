@@ -7,7 +7,7 @@ body {
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    padding: 56px;
+    /* padding: 56px; */
     margin: 0;
 
 }
@@ -100,6 +100,9 @@ section {
     grid-gap: 24px;
 }
 
+.grid-container img {
+    width: 100%;
+}
 .item{
     font-size: 24px;
     line-height: 1.3em;
@@ -147,22 +150,19 @@ h3{
 
 /* Photography Section starts here */
 
-figure {
-    display: block;
-}
+
 
 .grid-photo {
-    grid-template-columns: repeat(3,1fr) ;
-    margin: 0;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
 }
-
-.grid_item {
-    float: none;
-    width: auto;
+.grid-photo .grid__item:nth-child(3) {
+    grid-column: span 2;
+    
 }
 
-.grid-photo > img {
-    margin: 0 auto;
+.grid-photo img {
+    width: 100%;
 }
+
