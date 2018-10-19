@@ -2,7 +2,7 @@
 Rebuilding Jon Chretien website
 
 ## Live Link
-- 
+- https://shantonwaldien.github.io/jon-chretien/index.html
 
 ### Technologies Used
 
